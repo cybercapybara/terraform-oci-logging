@@ -8,7 +8,7 @@ organise logs and control their IAM policies.
 
 ```hcl
 module "logging" {
-  source = "github.com/cybercapybara/terraform-oci-logging"
+  source = "github.com/moveeeax/terraform-oci-logging"
 
   compartment_id = var.compartment_id
   display_name   = "prod-log-group"
